@@ -1,0 +1,21 @@
+{
+  "name": "Public-chat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+      "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chai": "^4.0.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "^2.5.6",
+    "ejs-locals": "^1.0.2",
+    "express": "~4.15.2",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.8",
+    "socket.io": "^2.0.1"
+  }
+}

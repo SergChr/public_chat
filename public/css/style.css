@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.message-box {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+#sendButton {
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.chat-box {
+    position: relative;
+    overflow-y: auto;
+    background-color: aliceblue;
+    margin-bottom: 1%;
+}
+
+.chat-message {
+    display: block;
+    margin: 1px;
+}
+.chat-message .username {
+    background-color: darkturquoise;
+    padding: 5px;
+    margin: 3px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.chat-message .text {
+    display: inline-block;
+}
