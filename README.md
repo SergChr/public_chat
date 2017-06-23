@@ -5,4 +5,9 @@ Heroku demo: https://public-chat-eleken.herokuapp.com/
 
 API methods available on:
 */api/posts/create* - POST-method
+
 */api/posts/* - GET-method
+
+So, if you want to get all posts, you can make GET-query to https://public-chat-eleken.herokuapp.com/api/posts (using Postman, for example).
+
+For make tests you can run *npm test* in root directory.
